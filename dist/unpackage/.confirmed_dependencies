@@ -1,0 +1,18 @@
+{
+  "views/home/index.html": {
+    "resources": [
+      "static/js/views/home/index.js",
+      "static/js/vendor.js",
+      "static/css/views/home/index.css"
+    ],
+    "refer": [
+      "views/home/list.html"
+    ]
+  },
+  "views/home/list.html": {
+    "resources": [
+      "static/js/views/home/list.js",
+      "static/css/views/home/list.css"
+    ]
+  }
+}
