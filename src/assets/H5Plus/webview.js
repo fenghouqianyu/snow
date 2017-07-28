@@ -28,4 +28,7 @@ webview.show = function () {
     })
   })
 }
+evt.plusReady(() => {
+  webview.self = window.plus.webview.currentWebview()
+})
 export default webview
